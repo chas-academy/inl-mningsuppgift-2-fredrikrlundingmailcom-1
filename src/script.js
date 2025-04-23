@@ -26,7 +26,7 @@ export function initSearch(people) { // rör ej denna rad
     {
       if (name === userInput)
       {
-        htmlText.innerText = "Namn hittades!"
+        htmlText.innerText = "Namn hittades: " + input.value
         nameFound = true
       }
     }
